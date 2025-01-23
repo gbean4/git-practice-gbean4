@@ -1,0 +1,144 @@
+    1  git--version
+    2  "git--version"
+    4  git version
+    5  git config global use.name "BellaBean"
+    6  git config --globaluse.name
+    7  git.config --global use.name "BellaBean"
+    8  git config --global use.name "BellaBean"
+    9  git config --global user.email "gbean4@byu.edu"
+   10  git config --global core.editor "code--wait"
+   11  git config --global init.defaultBranch main
+   16  git --version
+   25  mkdir gitpractice
+   27  cd gitpractice
+   28  git status
+   29  git init
+   30  git status
+   34  git status
+   35  git add new_file.txt
+   36  git status
+   37  git commit -m 'First commit'
+   38  git status
+   39  git status
+   40  git status
+   41  git add .
+   42  git status
+   43  git commit -m 'Update new_file with info'
+   44  git status
+   45  git log
+   46  git checkout 30cd5d83b73
+   47  git switch
+   48  git status
+   49  git switch-
+   50  git switch -
+   52  git add 'git-practice-gbean4'
+   54  touch git-practice-gbean4
+   55  git status
+   56  mk dir git-practice-gbean4
+   57  mkdir git-practice-gbean4
+   58  cd git-practice-gbean4
+   59  git init
+   61  git status
+   66  git status
+   67  git commit m- 'create new files'
+   68  git add .
+   69  git commit m- 'create new files'
+   70  git status
+   71  git commit -a -m 'create new files'
+   72  git status
+   73  git log
+   74  git status
+   75  git add file_1.txt
+   76  git status
+   77  git commit -m 'updated file_1'
+   78  git status
+   79  git add file_2.txt
+   80  git commit -m 'updated file_2'
+   81  git status
+   82  git log
+   84  git status
+   85  git add Readme.md
+   86  git status
+   87  git commit -m 'updated readme.md'
+   88  git log
+   90  git status
+   91  git -undo
+   92  git status
+   93  touch .gitignore
+   94  git status
+   95  git add api-keys.txt
+   96  git add .gitignore
+   97  git status
+   98  git commit -m 'make gitignore'
+   99  git status
+  101  git status
+  102  git add api-keys.txt
+  104  git status
+  105  git add -f api-keys.txt
+  106  git commit -m 'updated api-keys.txt'
+  107  git status
+  108  git add -a
+  109  git add .
+  110  git commit -m 'even more updates in api-keys'
+  111  git status
+  112  git log
+  113  git branch 'features'
+  114  git branch
+  115  git switch features
+  116  git log
+  118  git add new_features.txt
+  119  git commit -m 'made new features file'
+  120  git status
+  121  git status
+  122  git add new_features
+  123  git add new_features.txt
+  124  git commit -m 'updated features'
+  138  git add _config.yml
+  155  cd git-practice-gbean4
+  156  git switch main
+  157  git add file_1.txt
+  158  git status
+  159  git commit -m 'added text to file_1'
+  160  git status
+  161  git merge features
+  162  git merge 'features'
+  163  git status
+  164  git commmit -m 'commit the features file'
+  165  git commit -m 'commit features into main'
+  166  git status
+  167  git log
+  168  git add_features.txt
+  169  git add new_features.txt
+  170  git commit -m 'changed text in new_features'
+  171  git switch 'features'
+  172  git add new_features.txt
+  173  git commit -m 'new text in new_features in new branch'
+  174  git switch 'main'
+  175  git merge 'features'
+  176  git status
+  177  git add new_features
+  178  git add 'new_features.txt'
+  179  git commit -m 'merge commit in new_features'
+  180  git delete 'features'
+  181  git branch d- 'features'
+  182  git remote add origin git@github.com:gbean4/git-practice-gbean4.git
+  183  git push -u origin main
+  184  git branch feature-bellabean
+  188  git status
+  192  cd git-practice-jl240
+  193  git branch feature-bellabean
+  194  git switch feature-bellabean
+  195  git touch extra_new_file.txt
+  197  git status
+  198  git add extra_new_file.txt
+  199  git commit -m 'added an extra new file'
+  200  git push origin feature-bellabean
+  203  git-practice-gbean4
+  204  cd git-practice-gbean4
+  205  git pull
+  206  git status
+  208  git log --oneline > gitlog.txt
+  209  git status
+  210  git add gitlog.txt
+  211  git commit -m 'export one-line git log'
+  212  history | grep git > history.txt
